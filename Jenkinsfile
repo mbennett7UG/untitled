@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('GetProject') {
             steps {
-                git 'https://github.com/mbennett7UG/untitled'
+                git 'https://github.com/mbennett7UG/untitled.git'
 
             }
         }
