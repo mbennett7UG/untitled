@@ -4,8 +4,6 @@ pipeline {
         stage ('GetProject') {
             steps {
                 git 'https://github.com/mbennett7UG/untitled.git'
-
-
             }
         }
         stage ('build') {
