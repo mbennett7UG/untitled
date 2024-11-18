@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('GetProject') {
             steps {
-                git 'https://github.com/mbennett7UG/ct5171_springBoootuntitled1'
+                git 'https://github.com/mbennett7UG/untitled'
             }
         }
         stage ('build') {
